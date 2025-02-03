@@ -10,9 +10,9 @@ export default function Footer() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Subscription Successful",
+      title: "Subscription Successfull",
       description:
-        "Thanks for subscribing ! We'll keep you notified with our latest updates !",
+        "Thank you for subscribing! We will keep you notified with our latest updates.",
     });
   };
   return (

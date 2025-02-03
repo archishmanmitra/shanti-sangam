@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Introduction() {
   return (
     <section className="py-16 bg-gray-100">
@@ -16,10 +18,12 @@ export default function Introduction() {
             </p>
           </div>
           <div className="aspect-w-16 aspect-h-9">
-            <img
-              src="/side.jpg"
-              alt="Peaceful yoga session at Shanti Sangam"
-              className="rounded-lg object-cover"
+            <Image
+            src="/side.jpg"
+            alt="Peaceful yoga session at Shanti Sangam"
+            width={700} 
+            height={700}
+            className="rounded-lg object-cover"
             />
           </div>
         </div>

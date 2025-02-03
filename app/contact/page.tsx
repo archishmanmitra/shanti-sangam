@@ -17,13 +17,11 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send this data to your backend
     console.log({ name, email, subject, message })
     toast({
       title: "Message Sent",
-      description: "We've received your message and will get back to you soon.",
+      description: "We have received your message and will get back to you soon.",
     })
-    // Clear the form
     setName("")
     setEmail("")
     setSubject("")
@@ -39,7 +37,7 @@ export default function Contact() {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
             <p className="mb-4">
-              We're here to answer any questions you may have about our services, locations, or how we can help you on
+              We are here to answer any questions you may have about our services, locations, or how we can help you on
               your wellness journey.
             </p>
             <div className="space-y-2">
