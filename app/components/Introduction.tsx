@@ -11,7 +11,7 @@ export default function Introduction() {
               self-discovery and holistic healing.
             </p>
             <p className="text-lg">
-              Whether you're seeking inner peace, physical rejuvenation, or spiritual growth, Shanti Sangam provides the
+              Whether you are seeking inner peace, physical rejuvenation, or spiritual growth, Shanti Sangam provides the
               perfect sanctuary for your wellness journey.
             </p>
           </div>
